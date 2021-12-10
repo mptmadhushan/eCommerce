@@ -2,7 +2,8 @@ const INITIAL_STATE = {
   sections: [
     {
       title: "chair",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      imageUrl:
+        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhaXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
       id: 1,
       linkUrl: "shop/chair",
     },

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+import logo from "../../assets/logo.png";
 
 import CartIcon from "../cart-icon/cart-icon";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
@@ -16,7 +16,7 @@ import "./header.styles.scss";
 const Header = ({ currentUser, hidden, signOutStart }) => (
   <div className="header">
     <Link className="logo-container" to="/">
-      <Logo className="logo" />
+      {/* <img src={logo} className="logo" alt="item" /> */}
     </Link>
     <div className="options">
       <Link className="option" to="/shop">
